@@ -1,4 +1,9 @@
-from transformers import pipeline
+import torch
+from transformers import AutoModelForCausalLM, AutoTokenizer, pipeline
+
+model_path = "./tinystories-gptneo-tiny-final"
+tokenizer = AutoTokenizer.from_pretrained(model_path)
+model = AutoModelForCausalLM.from_pretrained(model_path)
 
 generator = pipeline(
     "text-generation",
@@ -11,7 +16,9 @@ prompt = "Once upon a time there was a little girl"
 stories = generator(
     prompt,
     max_new_tokens=200,
-    temperature=0.8,
+    temperature=0.6,
+    top_p=0.92,
+    repetition_penalty=1.3,
     top_k=50,
     do_sample=True,
     num_return_sequences=3

@@ -1,0 +1,225 @@
+nohup: ignoring input
+Importing stuff...
+Reloading the model...
+Loading weights:   0%|          | 0/52 [00:00<?, ?it/s]Loading weights: 100%|██████████| 52/52 [00:00<00:00, 8638.80it/s]
+Warning: You are sending unauthenticated requests to the HF Hub. Please set a HF_TOKEN to enable higher rate limits and faster downloads.
+`loss_type=None` was set in the config but it is unrecognized. Using the default loss: `ForCausalLMLoss`.
+Total parameters: 7,259,008
+Loading the data...
+Tokenizing...
+Training samples: 2119719
+Steps per epoch: 8281
+{'loss': '2.045', 'grad_norm': '0.1428', 'learning_rate': '9.9e-05', 'epoch': '0.01208'}
+{'loss': '2.052', 'grad_norm': '0.1438', 'learning_rate': '0.000199', 'epoch': '0.02415'}
+{'loss': '2.064', 'grad_norm': '0.1592', 'learning_rate': '0.000299', 'epoch': '0.03623'}
+{'loss': '2.063', 'grad_norm': '0.1693', 'learning_rate': '0.000399', 'epoch': '0.04831'}
+{'loss': '2.071', 'grad_norm': '0.172', 'learning_rate': '0.000499', 'epoch': '0.06038'}
+{'loss': '2.078', 'grad_norm': '0.1481', 'learning_rate': '0.0005', 'epoch': '0.07246'}
+{'loss': '2.078', 'grad_norm': '0.1512', 'learning_rate': '0.0004998', 'epoch': '0.08454'}
+{'loss': '2.077', 'grad_norm': '0.1459', 'learning_rate': '0.0004996', 'epoch': '0.09662'}
+{'loss': '2.084', 'grad_norm': '0.1523', 'learning_rate': '0.0004992', 'epoch': '0.1087'}
+{'loss': '2.079', 'grad_norm': '0.1569', 'learning_rate': '0.0004988', 'epoch': '0.1208'}
+{'loss': '2.075', 'grad_norm': '0.1584', 'learning_rate': '0.0004983', 'epoch': '0.1328'}
+{'loss': '2.072', 'grad_norm': '0.1483', 'learning_rate': '0.0004977', 'epoch': '0.1449'}
+{'loss': '2.072', 'grad_norm': '0.1493', 'learning_rate': '0.000497', 'epoch': '0.157'}
+{'loss': '2.072', 'grad_norm': '0.1586', 'learning_rate': '0.0004961', 'epoch': '0.1691'}
+{'loss': '2.07', 'grad_norm': '0.1461', 'learning_rate': '0.0004952', 'epoch': '0.1812'}
+{'loss': '2.068', 'grad_norm': '0.1406', 'learning_rate': '0.0004942', 'epoch': '0.1932'}
+{'loss': '2.073', 'grad_norm': '0.1378', 'learning_rate': '0.0004932', 'epoch': '0.2053'}
+{'loss': '2.073', 'grad_norm': '0.1439', 'learning_rate': '0.000492', 'epoch': '0.2174'}
+{'loss': '2.071', 'grad_norm': '0.1328', 'learning_rate': '0.0004907', 'epoch': '0.2295'}
+{'loss': '2.067', 'grad_norm': '0.1471', 'learning_rate': '0.0004893', 'epoch': '0.2415'}
+{'eval_loss': '1.912', 'eval_runtime': '19.95', 'eval_samples_per_second': '1102', 'eval_steps_per_second': '137.8', 'epoch': '0.2415'}
+Writing model shards:   0%|          | 0/1 [00:00<?, ?it/s]Writing model shards: 100%|██████████| 1/1 [00:00<00:00,  3.19it/s]Writing model shards: 100%|██████████| 1/1 [00:00<00:00,  3.18it/s]
+{'loss': '2.07', 'grad_norm': '0.1339', 'learning_rate': '0.0004879', 'epoch': '0.2536'}
+{'loss': '2.064', 'grad_norm': '0.1412', 'learning_rate': '0.0004863', 'epoch': '0.2657'}
+{'loss': '2.063', 'grad_norm': '0.1394', 'learning_rate': '0.0004847', 'epoch': '0.2778'}
+{'loss': '2.062', 'grad_norm': '0.1355', 'learning_rate': '0.000483', 'epoch': '0.2898'}
+{'loss': '2.06', 'grad_norm': '0.1382', 'learning_rate': '0.0004811', 'epoch': '0.3019'}
+{'loss': '2.063', 'grad_norm': '0.1442', 'learning_rate': '0.0004792', 'epoch': '0.314'}
+{'loss': '2.062', 'grad_norm': '0.1438', 'learning_rate': '0.0004772', 'epoch': '0.3261'}
+{'loss': '2.064', 'grad_norm': '0.1409', 'learning_rate': '0.0004751', 'epoch': '0.3382'}
+{'loss': '2.062', 'grad_norm': '0.1303', 'learning_rate': '0.000473', 'epoch': '0.3502'}
+{'loss': '2.061', 'grad_norm': '0.137', 'learning_rate': '0.0004707', 'epoch': '0.3623'}
+{'loss': '2.054', 'grad_norm': '0.1396', 'learning_rate': '0.0004684', 'epoch': '0.3744'}
+{'loss': '2.06', 'grad_norm': '0.1325', 'learning_rate': '0.000466', 'epoch': '0.3865'}
+{'loss': '2.06', 'grad_norm': '0.1443', 'learning_rate': '0.0004635', 'epoch': '0.3985'}
+{'loss': '2.057', 'grad_norm': '0.13', 'learning_rate': '0.0004609', 'epoch': '0.4106'}
+{'loss': '2.056', 'grad_norm': '0.1335', 'learning_rate': '0.0004582', 'epoch': '0.4227'}
+{'loss': '2.056', 'grad_norm': '0.1296', 'learning_rate': '0.0004555', 'epoch': '0.4348'}
+{'loss': '2.054', 'grad_norm': '0.1359', 'learning_rate': '0.0004526', 'epoch': '0.4468'}
+{'loss': '2.053', 'grad_norm': '0.1334', 'learning_rate': '0.0004497', 'epoch': '0.4589'}
+{'loss': '2.054', 'grad_norm': '0.1279', 'learning_rate': '0.0004468', 'epoch': '0.471'}
+{'loss': '2.052', 'grad_norm': '0.138', 'learning_rate': '0.0004437', 'epoch': '0.4831'}
+{'eval_loss': '1.896', 'eval_runtime': '19.96', 'eval_samples_per_second': '1102', 'eval_steps_per_second': '137.7', 'epoch': '0.4831'}
+Writing model shards:   0%|          | 0/1 [00:00<?, ?it/s]Writing model shards: 100%|██████████| 1/1 [00:00<00:00,  2.95it/s]Writing model shards: 100%|██████████| 1/1 [00:00<00:00,  2.94it/s]
+{'loss': '2.052', 'grad_norm': '0.1344', 'learning_rate': '0.0004406', 'epoch': '0.4952'}
+{'loss': '2.051', 'grad_norm': '0.1348', 'learning_rate': '0.0004374', 'epoch': '0.5072'}
+{'loss': '2.055', 'grad_norm': '0.1276', 'learning_rate': '0.0004341', 'epoch': '0.5193'}
+{'loss': '2.046', 'grad_norm': '0.1336', 'learning_rate': '0.0004308', 'epoch': '0.5314'}
+{'loss': '2.046', 'grad_norm': '0.1225', 'learning_rate': '0.0004273', 'epoch': '0.5435'}
+{'loss': '2.046', 'grad_norm': '0.1282', 'learning_rate': '0.0004239', 'epoch': '0.5555'}
+{'loss': '2.05', 'grad_norm': '0.1338', 'learning_rate': '0.0004203', 'epoch': '0.5676'}
+{'loss': '2.046', 'grad_norm': '0.1348', 'learning_rate': '0.0004167', 'epoch': '0.5797'}
+{'loss': '2.047', 'grad_norm': '0.1401', 'learning_rate': '0.000413', 'epoch': '0.5918'}
+{'loss': '2.051', 'grad_norm': '0.1387', 'learning_rate': '0.0004093', 'epoch': '0.6038'}
+{'loss': '2.049', 'grad_norm': '0.132', 'learning_rate': '0.0004055', 'epoch': '0.6159'}
+{'loss': '2.043', 'grad_norm': '0.1312', 'learning_rate': '0.0004016', 'epoch': '0.628'}
+{'loss': '2.047', 'grad_norm': '0.126', 'learning_rate': '0.0003977', 'epoch': '0.6401'}
+{'loss': '2.041', 'grad_norm': '0.1263', 'learning_rate': '0.0003937', 'epoch': '0.6522'}
+{'loss': '2.042', 'grad_norm': '0.1271', 'learning_rate': '0.0003897', 'epoch': '0.6642'}
+{'loss': '2.044', 'grad_norm': '0.1292', 'learning_rate': '0.0003856', 'epoch': '0.6763'}
+{'loss': '2.039', 'grad_norm': '0.1392', 'learning_rate': '0.0003815', 'epoch': '0.6884'}
+{'loss': '2.039', 'grad_norm': '0.1233', 'learning_rate': '0.0003773', 'epoch': '0.7005'}
+{'loss': '2.041', 'grad_norm': '0.1151', 'learning_rate': '0.0003731', 'epoch': '0.7125'}
+{'loss': '2.042', 'grad_norm': '0.1429', 'learning_rate': '0.0003688', 'epoch': '0.7246'}
+{'eval_loss': '1.883', 'eval_runtime': '20.02', 'eval_samples_per_second': '1098', 'eval_steps_per_second': '137.3', 'epoch': '0.7246'}
+Writing model shards:   0%|          | 0/1 [00:00<?, ?it/s]Writing model shards: 100%|██████████| 1/1 [00:00<00:00,  3.02it/s]Writing model shards: 100%|██████████| 1/1 [00:00<00:00,  3.02it/s]
+{'loss': '2.038', 'grad_norm': '0.1285', 'learning_rate': '0.0003645', 'epoch': '0.7367'}
+{'loss': '2.043', 'grad_norm': '0.1237', 'learning_rate': '0.0003601', 'epoch': '0.7488'}
+{'loss': '2.039', 'grad_norm': '0.1254', 'learning_rate': '0.0003557', 'epoch': '0.7608'}
+{'loss': '2.035', 'grad_norm': '0.1443', 'learning_rate': '0.0003513', 'epoch': '0.7729'}
+{'loss': '2.032', 'grad_norm': '0.1222', 'learning_rate': '0.0003468', 'epoch': '0.785'}
+{'loss': '2.033', 'grad_norm': '0.1259', 'learning_rate': '0.0003422', 'epoch': '0.7971'}
+{'loss': '2.038', 'grad_norm': '0.1218', 'learning_rate': '0.0003377', 'epoch': '0.8092'}
+{'loss': '2.031', 'grad_norm': '0.1249', 'learning_rate': '0.0003331', 'epoch': '0.8212'}
+{'loss': '2.033', 'grad_norm': '0.1295', 'learning_rate': '0.0003285', 'epoch': '0.8333'}
+{'loss': '2.034', 'grad_norm': '0.1292', 'learning_rate': '0.0003238', 'epoch': '0.8454'}
+{'loss': '2.032', 'grad_norm': '0.1371', 'learning_rate': '0.0003191', 'epoch': '0.8575'}
+{'loss': '2.03', 'grad_norm': '0.1231', 'learning_rate': '0.0003144', 'epoch': '0.8695'}
+{'loss': '2.029', 'grad_norm': '0.1223', 'learning_rate': '0.0003097', 'epoch': '0.8816'}
+{'loss': '2.027', 'grad_norm': '0.1246', 'learning_rate': '0.0003049', 'epoch': '0.8937'}
+{'loss': '2.033', 'grad_norm': '0.1282', 'learning_rate': '0.0003001', 'epoch': '0.9058'}
+{'loss': '2.027', 'grad_norm': '0.1228', 'learning_rate': '0.0002953', 'epoch': '0.9178'}
+{'loss': '2.026', 'grad_norm': '0.1218', 'learning_rate': '0.0002905', 'epoch': '0.9299'}
+{'loss': '2.028', 'grad_norm': '0.1336', 'learning_rate': '0.0002857', 'epoch': '0.942'}
+{'loss': '2.029', 'grad_norm': '0.1233', 'learning_rate': '0.0002808', 'epoch': '0.9541'}
+{'loss': '2.026', 'grad_norm': '0.1204', 'learning_rate': '0.000276', 'epoch': '0.9662'}
+{'eval_loss': '1.869', 'eval_runtime': '20', 'eval_samples_per_second': '1099', 'eval_steps_per_second': '137.4', 'epoch': '0.9662'}
+Writing model shards:   0%|          | 0/1 [00:00<?, ?it/s]Writing model shards: 100%|██████████| 1/1 [00:00<00:00,  3.01it/s]Writing model shards: 100%|██████████| 1/1 [00:00<00:00,  3.01it/s]
+{'loss': '2.026', 'grad_norm': '0.1205', 'learning_rate': '0.0002711', 'epoch': '0.9782'}
+{'loss': '2.024', 'grad_norm': '0.1205', 'learning_rate': '0.0002662', 'epoch': '0.9903'}
+{'loss': '2.025', 'grad_norm': '0.1281', 'learning_rate': '0.0002613', 'epoch': '1.002'}
+{'loss': '2.022', 'grad_norm': '0.1181', 'learning_rate': '0.0002565', 'epoch': '1.014'}
+{'loss': '2.024', 'grad_norm': '0.1382', 'learning_rate': '0.0002516', 'epoch': '1.026'}
+{'loss': '2.019', 'grad_norm': '0.1226', 'learning_rate': '0.0002467', 'epoch': '1.039'}
+{'loss': '2.022', 'grad_norm': '0.1258', 'learning_rate': '0.0002418', 'epoch': '1.051'}
+{'loss': '2.017', 'grad_norm': '0.1256', 'learning_rate': '0.0002369', 'epoch': '1.063'}
+{'loss': '2.013', 'grad_norm': '0.1277', 'learning_rate': '0.000232', 'epoch': '1.075'}
+{'loss': '2.017', 'grad_norm': '0.1197', 'learning_rate': '0.0002271', 'epoch': '1.087'}
+{'loss': '2.016', 'grad_norm': '0.1188', 'learning_rate': '0.0002223', 'epoch': '1.099'}
+{'loss': '2.017', 'grad_norm': '0.1247', 'learning_rate': '0.0002174', 'epoch': '1.111'}
+{'loss': '2.017', 'grad_norm': '0.1183', 'learning_rate': '0.0002126', 'epoch': '1.123'}
+{'loss': '2.013', 'grad_norm': '0.1182', 'learning_rate': '0.0002078', 'epoch': '1.135'}
+{'loss': '2.015', 'grad_norm': '0.1256', 'learning_rate': '0.0002029', 'epoch': '1.147'}
+{'loss': '2.01', 'grad_norm': '0.1242', 'learning_rate': '0.0001982', 'epoch': '1.159'}
+{'loss': '2.019', 'grad_norm': '0.1309', 'learning_rate': '0.0001934', 'epoch': '1.171'}
+{'loss': '2.013', 'grad_norm': '0.1225', 'learning_rate': '0.0001886', 'epoch': '1.183'}
+{'loss': '2.011', 'grad_norm': '0.1184', 'learning_rate': '0.0001839', 'epoch': '1.196'}
+{'loss': '2.015', 'grad_norm': '0.122', 'learning_rate': '0.0001792', 'epoch': '1.208'}
+{'eval_loss': '1.858', 'eval_runtime': '19.96', 'eval_samples_per_second': '1102', 'eval_steps_per_second': '137.7', 'epoch': '1.208'}
+Writing model shards:   0%|          | 0/1 [00:00<?, ?it/s]Writing model shards: 100%|██████████| 1/1 [00:00<00:00,  2.97it/s]Writing model shards: 100%|██████████| 1/1 [00:00<00:00,  2.96it/s]
+{'loss': '2.013', 'grad_norm': '0.1213', 'learning_rate': '0.0001745', 'epoch': '1.22'}
+{'loss': '2.015', 'grad_norm': '0.1169', 'learning_rate': '0.0001699', 'epoch': '1.232'}
+{'loss': '2.01', 'grad_norm': '0.1233', 'learning_rate': '0.0001653', 'epoch': '1.244'}
+{'loss': '2.014', 'grad_norm': '0.125', 'learning_rate': '0.0001607', 'epoch': '1.256'}
+{'loss': '2.005', 'grad_norm': '0.1207', 'learning_rate': '0.0001561', 'epoch': '1.268'}
+{'loss': '2.007', 'grad_norm': '0.1241', 'learning_rate': '0.0001516', 'epoch': '1.28'}
+{'loss': '2.008', 'grad_norm': '0.1177', 'learning_rate': '0.0001471', 'epoch': '1.292'}
+{'loss': '2.011', 'grad_norm': '0.1154', 'learning_rate': '0.0001427', 'epoch': '1.304'}
+{'loss': '2.006', 'grad_norm': '0.1205', 'learning_rate': '0.0001383', 'epoch': '1.316'}
+{'loss': '2.004', 'grad_norm': '0.1108', 'learning_rate': '0.000134', 'epoch': '1.328'}
+{'loss': '2.01', 'grad_norm': '0.1188', 'learning_rate': '0.0001296', 'epoch': '1.34'}
+{'loss': '2.01', 'grad_norm': '0.122', 'learning_rate': '0.0001254', 'epoch': '1.353'}
+{'loss': '2.006', 'grad_norm': '0.1211', 'learning_rate': '0.0001212', 'epoch': '1.365'}
+{'loss': '2.005', 'grad_norm': '0.118', 'learning_rate': '0.000117', 'epoch': '1.377'}
+{'loss': '2.007', 'grad_norm': '0.1209', 'learning_rate': '0.0001129', 'epoch': '1.389'}
+{'loss': '2.006', 'grad_norm': '0.119', 'learning_rate': '0.0001088', 'epoch': '1.401'}
+{'loss': '1.999', 'grad_norm': '0.1187', 'learning_rate': '0.0001048', 'epoch': '1.413'}
+{'loss': '1.996', 'grad_norm': '0.1179', 'learning_rate': '0.0001009', 'epoch': '1.425'}
+{'loss': '2.005', 'grad_norm': '0.1155', 'learning_rate': '9.697e-05', 'epoch': '1.437'}
+{'loss': '2.004', 'grad_norm': '0.1141', 'learning_rate': '9.313e-05', 'epoch': '1.449'}
+{'eval_loss': '1.849', 'eval_runtime': '20.01', 'eval_samples_per_second': '1099', 'eval_steps_per_second': '137.4', 'epoch': '1.449'}
+Writing model shards:   0%|          | 0/1 [00:00<?, ?it/s]Writing model shards: 100%|██████████| 1/1 [00:00<00:00,  3.06it/s]Writing model shards: 100%|██████████| 1/1 [00:00<00:00,  3.05it/s]
+{'loss': '2', 'grad_norm': '0.1138', 'learning_rate': '8.935e-05', 'epoch': '1.461'}
+{'loss': '2.003', 'grad_norm': '0.1199', 'learning_rate': '8.564e-05', 'epoch': '1.473'}
+{'loss': '1.999', 'grad_norm': '0.112', 'learning_rate': '8.198e-05', 'epoch': '1.485'}
+{'loss': '1.996', 'grad_norm': '0.1209', 'learning_rate': '7.84e-05', 'epoch': '1.497'}
+{'loss': '1.997', 'grad_norm': '0.1193', 'learning_rate': '7.487e-05', 'epoch': '1.51'}
+{'loss': '2.003', 'grad_norm': '0.1186', 'learning_rate': '7.142e-05', 'epoch': '1.522'}
+{'loss': '2.002', 'grad_norm': '0.1158', 'learning_rate': '6.803e-05', 'epoch': '1.534'}
+{'loss': '2.001', 'grad_norm': '0.1165', 'learning_rate': '6.471e-05', 'epoch': '1.546'}
+{'loss': '2', 'grad_norm': '0.1182', 'learning_rate': '6.146e-05', 'epoch': '1.558'}
+{'loss': '2.002', 'grad_norm': '0.1185', 'learning_rate': '5.829e-05', 'epoch': '1.57'}
+{'loss': '2.003', 'grad_norm': '0.1174', 'learning_rate': '5.519e-05', 'epoch': '1.582'}
+{'loss': '2', 'grad_norm': '0.1131', 'learning_rate': '5.216e-05', 'epoch': '1.594'}
+{'loss': '1.995', 'grad_norm': '0.1158', 'learning_rate': '4.921e-05', 'epoch': '1.606'}
+{'loss': '1.998', 'grad_norm': '0.1173', 'learning_rate': '4.634e-05', 'epoch': '1.618'}
+{'loss': '2', 'grad_norm': '0.1153', 'learning_rate': '4.354e-05', 'epoch': '1.63'}
+{'loss': '2', 'grad_norm': '0.1124', 'learning_rate': '4.082e-05', 'epoch': '1.642'}
+{'loss': '1.999', 'grad_norm': '0.1124', 'learning_rate': '3.818e-05', 'epoch': '1.654'}
+{'loss': '1.998', 'grad_norm': '0.1185', 'learning_rate': '3.563e-05', 'epoch': '1.667'}
+{'loss': '1.998', 'grad_norm': '0.1122', 'learning_rate': '3.315e-05', 'epoch': '1.679'}
+{'loss': '1.998', 'grad_norm': '0.1172', 'learning_rate': '3.076e-05', 'epoch': '1.691'}
+{'eval_loss': '1.843', 'eval_runtime': '19.96', 'eval_samples_per_second': '1102', 'eval_steps_per_second': '137.8', 'epoch': '1.691'}
+Writing model shards:   0%|          | 0/1 [00:00<?, ?it/s]Writing model shards: 100%|██████████| 1/1 [00:00<00:00,  3.05it/s]Writing model shards: 100%|██████████| 1/1 [00:00<00:00,  3.05it/s]
+{'loss': '1.996', 'grad_norm': '0.1122', 'learning_rate': '2.845e-05', 'epoch': '1.703'}
+{'loss': '1.994', 'grad_norm': '0.1145', 'learning_rate': '2.623e-05', 'epoch': '1.715'}
+{'loss': '1.998', 'grad_norm': '0.1119', 'learning_rate': '2.409e-05', 'epoch': '1.727'}
+{'loss': '2.001', 'grad_norm': '0.1151', 'learning_rate': '2.204e-05', 'epoch': '1.739'}
+{'loss': '2.002', 'grad_norm': '0.1142', 'learning_rate': '2.008e-05', 'epoch': '1.751'}
+{'loss': '1.995', 'grad_norm': '0.115', 'learning_rate': '1.82e-05', 'epoch': '1.763'}
+{'loss': '1.997', 'grad_norm': '0.1103', 'learning_rate': '1.641e-05', 'epoch': '1.775'}
+{'loss': '1.998', 'grad_norm': '0.118', 'learning_rate': '1.472e-05', 'epoch': '1.787'}
+{'loss': '1.994', 'grad_norm': '0.1098', 'learning_rate': '1.311e-05', 'epoch': '1.799'}
+{'loss': '1.998', 'grad_norm': '0.1104', 'learning_rate': '1.159e-05', 'epoch': '1.811'}
+{'loss': '1.993', 'grad_norm': '0.1122', 'learning_rate': '1.017e-05', 'epoch': '1.824'}
+{'loss': '1.991', 'grad_norm': '0.1118', 'learning_rate': '8.831e-06', 'epoch': '1.836'}
+{'loss': '1.992', 'grad_norm': '0.1137', 'learning_rate': '7.589e-06', 'epoch': '1.848'}
+{'loss': '1.999', 'grad_norm': '0.112', 'learning_rate': '6.44e-06', 'epoch': '1.86'}
+{'loss': '1.992', 'grad_norm': '0.1132', 'learning_rate': '5.384e-06', 'epoch': '1.872'}
+{'loss': '1.995', 'grad_norm': '0.1077', 'learning_rate': '4.422e-06', 'epoch': '1.884'}
+{'loss': '1.995', 'grad_norm': '0.1077', 'learning_rate': '3.553e-06', 'epoch': '1.896'}
+{'loss': '1.996', 'grad_norm': '0.11', 'learning_rate': '2.779e-06', 'epoch': '1.908'}
+{'loss': '1.993', 'grad_norm': '0.1106', 'learning_rate': '2.099e-06', 'epoch': '1.92'}
+{'loss': '1.998', 'grad_norm': '0.1146', 'learning_rate': '1.514e-06', 'epoch': '1.932'}
+{'eval_loss': '1.84', 'eval_runtime': '20.01', 'eval_samples_per_second': '1099', 'eval_steps_per_second': '137.4', 'epoch': '1.932'}
+Writing model shards:   0%|          | 0/1 [00:00<?, ?it/s]Writing model shards: 100%|██████████| 1/1 [00:00<00:00,  2.97it/s]Writing model shards: 100%|██████████| 1/1 [00:00<00:00,  2.97it/s]
+{'loss': '1.992', 'grad_norm': '0.1085', 'learning_rate': '1.024e-06', 'epoch': '1.944'}
+{'loss': '1.997', 'grad_norm': '0.1119', 'learning_rate': '6.299e-07', 'epoch': '1.956'}
+{'loss': '1.991', 'grad_norm': '0.1115', 'learning_rate': '3.307e-07', 'epoch': '1.968'}
+{'loss': '1.996', 'grad_norm': '0.1081', 'learning_rate': '1.27e-07', 'epoch': '1.981'}
+{'loss': '1.999', 'grad_norm': '0.1098', 'learning_rate': '1.898e-08', 'epoch': '1.993'}
+Writing model shards:   0%|          | 0/1 [00:00<?, ?it/s]Writing model shards: 100%|██████████| 1/1 [00:00<00:00,  3.03it/s]Writing model shards: 100%|██████████| 1/1 [00:00<00:00,  3.03it/s]
+There were missing keys in the checkpoint model loaded: ['lm_head.weight'].
+{'train_runtime': '7076', 'train_samples_per_second': '599.1', 'train_steps_per_second': '2.341', 'train_loss': '2.027', 'epoch': '2'}
+Writing model shards:   0%|          | 0/1 [00:00<?, ?it/s]Writing model shards: 100%|██████████| 1/1 [00:00<00:00,  2.88it/s]Writing model shards: 100%|██████████| 1/1 [00:00<00:00,  2.88it/s]
+Passing `generation_config` together with generation-related arguments=({'do_sample', 'temperature', 'top_k', 'num_return_sequences', 'max_new_tokens'}) is deprecated and will be removed in future versions. Please pass either a `generation_config` object OR all generation parameters explicitly, but not both.
+Both `max_new_tokens` (=200) and `max_length`(=20) seem to have been set. `max_new_tokens` will take precedence. Please refer to the documentation for more information. (https://huggingface.co/docs/transformers/main/en/main_classes/text_generation)
+Story 1:
+Once upon a time there was a little girl who loved to dance. She would dance and clap all day, so much that she would often sing, dance and dance her whole time. 
+
+But one day, the girl was walking in the garden when she started to listen. Suddenly, she heard a loud noise and her foot started to rain. She was frightened and she was scared. 
+
+But then, a bigger voice said, "Don't hurt us, we can dance together." 
+
+The girl looked up and smiled, and it said, "Don't be afraid, Thunder will be okay. I can dance and I understand that." 
+
+The two of them laughed and danced as they danced and danced. Everyone laughed and cheered for the little girl. Everyone in the forest was so happy. 
+
+The end. The girl was so glad and the rain was gone, but now that it was even more beautiful than before her. She made it a lovely dance in her new bed and danced
+--------------------------------------------------------------------------------
+Story 2:
+Once upon a time there was a little girl who was three years old. One day, the girl went to a big store. She saw a big, round red balloon that she looked so happy! She opened the box and saw so she could reach it. She got all the way home with big drops of balloons and the balloon all was so shiny! She was so excited and hugged the balloon with warm smile. She went home and started to play with her other kids. They had so much fun playing with the balloon and laughing together. They all loved seeing the balloon and having fun. They all had a lot of fun, and they lived happily ever after. The little girl thanked the balloon, and waved goodbye to it as the balloon flew away. The balloon was so happy! She had found a good friend! The girl was so happy and proud of herself. She knew that she could always make such a difference and kind friend. And then it was time to go home. The End. She was sure she could always find something special
+--------------------------------------------------------------------------------
+Story 3:
+Once upon a time there was a little girl named Lily. She liked to play outside in the sunshine. One day, she saw a butterfly and wanted to play with it. So, she decided to catch it as fast as she could. 
+
+Lily chased the butterfly to the butterfly, and it flew out again. She was very sad and didn't know what to do. 
+
+Just then, Lily saw an old lady who was waiting for her. She asked if she could have a nap for a long stick. Lily was very worried, so she went to the lady and took a nap. 
+
+After eating the bird nectar, Lily decided to release the butterfly for the butterfly. She said goodbye and flew back inside her paw. She was happy that she could keep the butterfly by flying. 
+
+Lily felt very safe and happy. She knew that her friend was just a little lonely. She knew that flying was her first day. From then on, Lily would always keep flying. And they
+--------------------------------------------------------------------------------

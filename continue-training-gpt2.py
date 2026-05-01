@@ -14,11 +14,11 @@ set_seed(42)
 disable_progress_bar()
 
 print("Reloading the model...")
-model = AutoModelForCausalLM.from_pretrained("/home/rml/tinystories-gpt2-tiny-final", local_files_only=True)
+model = AutoModelForCausalLM.from_pretrained("/home/ammorris02/tiny-stories/tinystories-gpt2-tiny-final", local_files_only=True)
 print(f"Total parameters: {model.num_parameters():,}")   # ~3–8M params depending on exact settings
 
 # Use the official GPT-2 tokenizer (fast version)
-tokenizer = AutoTokenizer.from_pretrained("/home/rml/tinystories-gpt2-tiny-final", local_files_only=True)
+tokenizer = AutoTokenizer.from_pretrained("/home/ammorris02/tiny-stories/tinystories-gpt2-tiny-final", local_files_only=True)
 tokenizer.pad_token = tokenizer.eos_token   # required for padding
 
 # Load the TinyStories dataset.
